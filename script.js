@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
             messages.push('Username too short! Must be atleast 3 characters');
         }
 
-//Email  Validation
+//Email Validation
         if (!email.includes('@') || !email.includes('.')) {
             isValid = false;
             messages.push('Email must be valid and include both "@" and "." symbols');
